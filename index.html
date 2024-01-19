@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+   <div class="header">
+    <h1 id="top">Todo <img src="images/icon-sun.svg" alt=""></h1>
+    <form id="todo-form">
+      <input type="text" id="new-todo" placeholder="Add new todo">
+      <button type="submit">Add</button>
+    </form>
+  </div>
+  <div id="ee">
+    <ul id="todo-list"></ul>
+    <p id="items-left"></p>
+  </div>
+   
+    <div id="filter-buttons">
+      <button id="all">All</button>
+      <button id="active">Active</button>
+      <button id="completed">Completed</button>
+      <button id="clear-completed">Clear Completed</button>
+    </div>
+
+  
+    <p>Drag and drop to reorder list</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
